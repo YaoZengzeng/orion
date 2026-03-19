@@ -18,7 +18,6 @@
 
 - ✅ End-to-end validated in Kmesh cluster (Kind + Istio)
 - ✅ xDS compatible — no control plane changes needed
-- ✅ Kubernetes Gateway API conformance tests passing
 - 🔄 Performance tuning & production stress testing in progress
 
 
