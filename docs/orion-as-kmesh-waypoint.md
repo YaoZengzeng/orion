@@ -2,7 +2,7 @@
 
 ---
 
-## Why Orion over Envoy
+### Why Orion over Envoy
 
 | | Envoy | Orion |
 |---|---|---|
@@ -13,18 +13,16 @@
 | Kmesh-native | ❌ Requires patching | ✅ Native TLV/eBPF integration |
 | Legacy burden | 10+ years, high change risk | Greenfield, optimizable |
 
----
 
-## Replacement Status
+### Replacement Status
 
 - ✅ End-to-end validated in Kmesh cluster (Kind + Istio)
 - ✅ xDS compatible — no control plane changes needed
 - ✅ Kubernetes Gateway API conformance tests passing
 - 🔄 Performance tuning & production stress testing in progress
 
----
 
-## Vision: Kmesh + Orion
+### Vision: Kmesh + Orion
 
 > **L4 by eBPF × L7 by Orion = Ultimate Service Mesh Performance**
 
